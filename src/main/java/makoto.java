@@ -4,7 +4,8 @@ import happyNum.happy;
 public class makoto {
 
     public static void main(String[] args){
-        a20isValid is = new a20isValid();
-        System.out.println(is.isValid("]"));
+        a1716massage is = new a1716massage();
+        int[] arr = {2,1,4,5,3,1,1,3};
+        System.out.println(is.massage(arr));
     }
 }
