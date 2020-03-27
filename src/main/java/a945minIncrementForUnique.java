@@ -9,5 +9,6 @@ public class a945minIncrementForUnique {
         for(int i=0; i<A.length; i++){
             
         }
+        return 0;
     }
 }
