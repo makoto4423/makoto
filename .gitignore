@@ -12,7 +12,7 @@
 .idea/
 makoto.iml
 target
-java/makoto.java
+src/main/java/makoto.java
 # Package Files #
 *.jar
 *.war
