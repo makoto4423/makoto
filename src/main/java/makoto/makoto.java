@@ -48,7 +48,7 @@ public class makoto {
 //        System.out.println(onePo.equals(onePo1));
 
 //        String finalSecret =  "{bcrypt}" + new BCryptPasswordEncoder().encode(newPass);
-        System.out.println("1".compareTo(null));
+        System.out.println("0123".substring(0));
     }
 
 }

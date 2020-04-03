@@ -37,6 +37,13 @@
             <artifactId>spring-security-oauth2</artifactId>
             <version>2.3.3.RELEASE</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.elasticsearch/geolite2-databases -->
+<!--        <dependency>-->
+<!--            <groupId>org.elasticsearch</groupId>-->
+<!--            <artifactId>geolite2-databases</artifactId>-->
+<!--            <version>20160608</version>-->
+<!--        </dependency>-->
+
     </dependencies>
 
 </project>
