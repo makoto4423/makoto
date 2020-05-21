@@ -13,6 +13,7 @@
 makoto.iml
 target
 src/main/java/makoto.java
+src/main/java/makoto/makoto.java
 # Package Files #
 *.jar
 *.war
