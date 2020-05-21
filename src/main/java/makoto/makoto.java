@@ -11,13 +11,18 @@ import org.apache.http.impl.client.HttpClients;
 
 import org.apache.http.entity.mime.MultipartEntityBuilder;
 
-import java.util.Arrays;
+import java.util.*;
 
 public class makoto {
 
     public static void main(String[] args){
-        Boolean[] b = new Boolean[2];
-        System.out.println(Arrays.toString(b));
+        List<String>  a = new ArrayList<>();
+        a.add("a");
+        List<String> b = new ArrayList<>();
+        b.add("a");
+        Set<List<String>> stack = new HashSet<>();
+        stack.add(a);stack.add(b);
+        System.out.println(stack.size());
 
     }
 
