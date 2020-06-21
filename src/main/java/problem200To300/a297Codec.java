@@ -5,7 +5,8 @@ import struct.TreeNode;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
+// 超出内存限制，但答案整体思路和我写的并无差异，放置一边
+@Deprecated
 public class a297Codec {
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
@@ -22,7 +23,7 @@ public class a297Codec {
         data = data.substring(1,data.length()-1);
         String[] ss = data.split(",");
         List<String> list = new ArrayList<>(Arrays.asList(ss));
-        return null;
+        return spell(list,0);
     }
 
 
@@ -45,5 +46,19 @@ public class a297Codec {
             arrange(child,res);
         }
     }
-    
+
+
+    public TreeNode spell(List<String> list,int index){
+        String s = list.get(index);
+        s = s.trim();
+        if(s.equals("null")){
+            return null;
+        }
+        TreeNode node = new TreeNode(Integer.parseInt(s));
+        if(index*2+1<list.size()){
+            node.left = spell(list,2*index+1);
+            node.right = spell(list, 2*index+2);
+        }
+        return node;
+    }
 }

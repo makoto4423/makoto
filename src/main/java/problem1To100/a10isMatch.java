@@ -1,5 +1,6 @@
 package problem1To100;
 
+@Deprecated
 public class a10isMatch {
     Boolean[][] memo;
 
