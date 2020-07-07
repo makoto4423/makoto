@@ -1,4 +1,4 @@
-package interview1To100;
+package problem1To100;
 
 public class a63uniquePathsWithObstacles {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
