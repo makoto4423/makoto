@@ -1,5 +1,6 @@
 package problem300To400;
 
+@Deprecated
 public class a312maxCoins {
     public int maxCoins(int[] nums) {
         int n = nums.length;
