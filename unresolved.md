@@ -3,3 +3,4 @@
 `a174calculateMinimumHP`
 `a1320minimumDistance`
 `a329`
+`a1375`
