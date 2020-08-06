@@ -5,3 +5,4 @@
 `a329`
 `a1375`
 `lcp a13`
+`a336palindromePairs`
