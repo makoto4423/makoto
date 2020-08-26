@@ -1,7 +1,5 @@
 package problem1To100;
 
-import org.springframework.util.StringUtils;
-
 public class a5longestPalindrome {
     public String longestPalindrome(String s) {
         if(s == null || s.length() == 0)    return "";
