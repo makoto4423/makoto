@@ -7,3 +7,4 @@
 `lcp a13`
 `a336palindromePairs`
 `a43multiply`
+`a37solveSudoku`
