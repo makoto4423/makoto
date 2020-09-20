@@ -8,3 +8,5 @@
 `a336palindromePairs`
 `a43multiply`
 `a37solveSudoku`
+`a1584minCostConnectPoints`
+`a05bonus`

@@ -35,5 +35,6 @@ public class a1584minCostConnectPoints {
         while (amount != n){
 
         }
+        return 1;
     }
 }
