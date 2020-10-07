@@ -1,3 +1,5 @@
+package problem1To100;
+
 public class a1twoSum {
     public int[] twoSum(int[] nums, int target) {
         int[] result;
