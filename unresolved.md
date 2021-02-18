@@ -8,4 +8,5 @@
 `a37solveSudoku`
 `a1584minCostConnectPoints`
 `a05bonus`
+`a995minKBitFlips`
 `lcp a16`
