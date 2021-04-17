@@ -15,7 +15,9 @@ public class a220containsNearbyAlmostDuplicate {
         }
         for (int i = k + 1; i < nums.length; i++) {
             // 其实这里也应该用二分去手动删除，不过，懒
-            list.remove(new Integer(nums[i - k - 1]));
+            // 结果就是三个月前能用的代码现在变超时，还是得二分删啊
+            // 不过实际上这里应该用桶
+            remove(list, nums[i - k - 1]);
             if (insert(list, nums[i], t)) {
                 return true;
             }
@@ -47,5 +49,23 @@ public class a220containsNearbyAlmostDuplicate {
             return dif <= t;
         }
         return false;
+    }
+
+    public void remove(List<Integer> list, int val) {
+        int l = 0, r = list.size();
+        while (l < r) {
+            int mid = (r - l) / 2 + l;
+            if (list.get(l) == val) {
+                list.remove(l);
+                break;
+            } else if (list.get(mid) == val) {
+                list.remove(mid);
+                break;
+            } else if (list.get(mid) < val) {
+                l = mid + 1;
+            } else {
+                r = mid;
+            }
+        }
     }
 }
